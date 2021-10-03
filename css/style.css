@@ -1,0 +1,99 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body{
+  background:#ffffff;
+  font-family: 'Montserrat', sans-serif;
+}
+a{text-decoration:none;}
+
+/** Menu **/
+#header{
+  width:100%;
+  height:70px;
+  padding:0px 30px;
+  background-color:#202020;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header .logo h1{
+  font-size: 30px;
+  font-weight: 400;
+}
+#header .logo h1 a{color:#ffffff;}
+#header .cta img{
+  width:30px;
+  height:30px;
+  margin-top:20px;
+}
+
+/** Navigation menu **/
+.menu{
+  position:fixed;
+  top:0;
+  right:-120%;
+  width:100%;
+  height:100vh;
+  padding:30px;
+  background-color:#185ADB;
+  color:#ffffff;
+}
+.menu .cerrar-menu{
+  width:100%;
+  padding-bottom:10px;
+  display:flex;
+  align-items: center;
+  justify-content: flex-end;
+  border-bottom:2px solid #ffffff;
+}
+.menu .cerrar-menu p{
+  font-size:18px;
+  margin-right:20px;
+}
+.menu .cerrar-menu img{
+  width:25px;
+  height:25px;
+}
+.menu .enlaces{margin-top:40px;}
+.menu .enlaces li{
+  list-style:none;
+  margin-bottom:10px;
+}
+.menu .enlaces li a{
+  color:#ffffff;
+  font-size:22px;
+  font-weight:600;
+}
+
+/** Header **/
+.banner-header .top{
+  background-color:#fffd6d;
+  padding:50px 15px;
+}
+.banner-header .top h2{
+  color:#131313;
+  font-size:40px;
+  font-weight:800;
+}
+.banner-header .top p{
+  color:#131313;
+  font-size:20px;
+  line-height:30px;
+  margin:30px 0px 50px;
+}
+.banner-header .top a{
+  background-color:#131313;
+  color:#ffffff;
+  padding:10px;
+  transition:300ms;
+}
+.banner-header .top a:hover{background-color:#185ADB;}
+
+/** Image **/
+.banner-header .bottom img{
+  width:100%;
+}
+
